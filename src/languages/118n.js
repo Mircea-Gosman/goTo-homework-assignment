@@ -22,7 +22,7 @@ i18n
             signIn: {
                 title: 'Task Management',
                 subtitle: 'Homework Assignment',
-                inputName: 'Username',
+                inputLabel: 'Username',
                 signInButton: 'Next'
             },
             dashboard: {

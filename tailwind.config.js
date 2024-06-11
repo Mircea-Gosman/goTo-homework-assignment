@@ -14,10 +14,10 @@ module.exports = {
         'darkBackground': '#000000',
         'lightBackground': '#ffffff',
         'darkText': '#000000',
+        'mediumDarkText': '#639BB6',
         'lightText': '#ffffff',
         'warning': '#E92A60',
-        'lightGray': '#B2CDDB',
-        'mediumGray': '#639BB6',
+        'border': '#B2CDDB',
         'darkGray': '#8CB4C8',
       }
     }
