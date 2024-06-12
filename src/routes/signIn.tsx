@@ -1,13 +1,14 @@
 import { useTranslation } from "react-i18next";
+
+import Input from "components/textInputs/input";
+import TextButton from "components/buttons/textButton";
 import BackgroundGraphics from 'components/backgroundGraphics';
-import Input from "components/input";
-import TextButton from "components/textButton";
 
 function SignIn() {
   const { t } = useTranslation();
 
   return (
-    <main className="font-Inter">
+    <main>
         <article className="w-[100dvw] h-[100dvh] flex items-center justify-center relative overflow-hidden">
             <BackgroundGraphics/>
             <div className="mt-10">

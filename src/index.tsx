@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -8,11 +9,16 @@ import {
 import './languages/118n';
 import './index.css';
 import SignIn from './routes/signIn';
+import Dashboard from 'routes/dashboard';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <SignIn />
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />
   },
 ]);
 
@@ -21,7 +27,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className='font-Inter'>
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>
 );
 

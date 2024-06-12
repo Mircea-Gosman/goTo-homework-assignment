@@ -2,6 +2,8 @@
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
+    'node_modules/flowbite-react/lib/esm/**/*.js',
+    './node_modules/tailwind-datepicker-react/dist/**/*.js',
   ],
   theme: {
     extend: {
@@ -18,10 +20,13 @@ module.exports = {
         'lightText': '#ffffff',
         'warning': '#E92A60',
         'border': '#B2CDDB',
+        'mediumDarkBackground': '#B2CDDB',
         'darkGray': '#8CB4C8',
       }
     }
   },
-  plugins: [],
+  plugins: [
+      require('flowbite/plugin')
+  ]
 }
 
