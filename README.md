@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Homework Assignment Submission (Frontend Dev)
 
 This repository contains the frontend solution of the homework assignment. The backend lives [here](https://github.com/Mircea-Gosman/goTo-homework-assignment-helper-server).
 
@@ -30,11 +30,13 @@ npm run start
 Upon receiving the homework assignment description, I set out to do design the application in Figma. I based it on the GoTo [brand guidelines](https://brandpad.io/goto-brand-guidelines/). In order to fit development within the allocated time, I downsampled the complete feature set to exclude task status filtering and task title searching. My Figma free tier is out of share links, so here are screenshots of my designs:
 
 #### User sign-in route `/`
-
+<img src="https://github.com/Mircea-Gosman/goTo-homework-assignment/blob/master/githubPictures/signInScreenshot.png" width="900">
 
 #### Full-feature task management dashboard `/dashbaord`
+<img src="https://github.com/Mircea-Gosman/goTo-homework-assignment/blob/master/githubPictures/completeDesignScreenshot.png" width="900">
 
 #### Reduced feature task management dashboard `/dashboard` (implemented
+<img src="https://github.com/Mircea-Gosman/goTo-homework-assignment/blob/master/githubPictures/implementedDesignScreenshot.png" width="900">
 
 ### Codebase considerations
 
