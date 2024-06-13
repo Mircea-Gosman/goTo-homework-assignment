@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import { ReactComponent as Chevron } from 'assets/icons/chevron.svg';
 
 function ToggleButton(props: { 

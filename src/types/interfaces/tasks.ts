@@ -1,5 +1,5 @@
 export interface Task {
-    id: string;
+    _id: string;
     creatorId: string;
     title: string;
     description: string;
@@ -9,6 +9,5 @@ export interface Task {
 
 export enum Status {
     Pending,
-    Completed,
-    Overdue
+    Completed
 }

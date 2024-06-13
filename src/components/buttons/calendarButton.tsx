@@ -34,7 +34,7 @@ function CalendarButton(props: {
                 options={
                     {                                
                         todayBtn: false,
-                        // clearBtn: false,
+                        clearBtn: false,
                     }
                 }
             >

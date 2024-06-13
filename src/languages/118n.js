@@ -18,7 +18,9 @@ i18n
                 title: 'Task Management',
                 subtitle: 'Homework Assignment',
                 inputLabel: 'Username',
-                signInButton: 'Next'
+                signInButton: 'Next',
+                serverError: 'Failed to access the server.',
+                incompleteError: 'Can not sign in without a username.'
             },
             dashboard: {
                 title: 'All Tasks',
@@ -30,11 +32,13 @@ i18n
                 taskCards: {
                     titleInputFieldName: 'Title',
                     descriptionInputFieldName: 'Description',
-                    overdue: 'Overdue'
+                    overdue: 'Overdue',
+                    emptyTaskList: 'There are no tasks in the list!'
                 },
                 search: {
                     prompt: 'Search task title...'
-                }
+                },
+                errorBanner: 'Beware: We\'re having trouble saving your changes.'
             }
         }
       },
