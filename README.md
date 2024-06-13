@@ -2,6 +2,9 @@
 
 This repository contains the frontend solution of the homework assignment. The backend lives [here](https://github.com/Mircea-Gosman/goTo-homework-assignment-helper-server).
 
+## Demo
+Here is a [loom video demo](https://www.loom.com/share/ff3d72a709a046b1941a2f40e92479b0?sid=fed1028f-03c3-4586-899f-8787ea170b50) that goes over some of my design steps and the app's functions.
+
 ## Commands
 The project uses npm!
 
